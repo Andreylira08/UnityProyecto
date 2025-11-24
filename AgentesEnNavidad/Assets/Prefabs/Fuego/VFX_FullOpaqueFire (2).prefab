@@ -223,7 +223,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.764151, g: 0.764151, b: 0.764151, a: 1}
+      maxColor: {r: 1, g: 0.33333334, b: 0, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -287,7 +287,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.0281216
+      scalar: 0.125497
       minScalar: 0.03
       maxCurve:
         serializedVersion: 2
@@ -870,7 +870,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 28.121601
+      scalar: 125.49701
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -4865,7 +4865,7 @@ GameObject:
   - component: {fileID: 6023247874728752180}
   - component: {fileID: 3440155747697993456}
   m_Layer: 0
-  m_Name: Humo
+  m_Name: VFX_FullOpaqueFire (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4880,7 +4880,7 @@ Transform:
   m_GameObject: {fileID: 6773315970836526503}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.3130562, y: 0.25, z: 1.0161201}
+  m_LocalPosition: {x: -0.054, y: 0.54, z: -1.035}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4903,8 +4903,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ab9caf6fbb14f2daf1fb0a4c86bea77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireColor: {r: 0.764151, g: 0.764151, b: 0.764151, a: 1}
-  fireIntensity: 0.8
+  fireColor: {r: 1, g: 0.33333334, b: 0, a: 1}
+  fireIntensity: 1.3
   fireWindDirection: {x: 0, y: 0, z: 0}
 --- !u!1 &6956510191130969363
 GameObject:
@@ -5129,7 +5129,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.764151, g: 0.764151, b: 0.764151, a: 1}
+      maxColor: {r: 1, g: 0.33333334, b: 0, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -5193,7 +5193,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.1124864
+      scalar: 0.501988
       minScalar: 0.08
       maxCurve:
         serializedVersion: 2
@@ -5776,7 +5776,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 42.1824
+      scalar: 188.24551
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -9974,7 +9974,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.764151, g: 0.764151, b: 0.764151, a: 1}
+      maxColor: {r: 1, g: 0.33333334, b: 0, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -10038,7 +10038,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.0281216
+      scalar: 0.125497
       minScalar: 0.03
       maxCurve:
         serializedVersion: 2
@@ -10621,7 +10621,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 28.121601
+      scalar: 125.49701
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -14648,8 +14648,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 2
-  m_Color: {r: 0.764151, g: 0.764151, b: 0.764151, a: 1}
-  m_Intensity: 0.8
+  m_Color: {r: 1, g: 0.33333334, b: 0, a: 1}
+  m_Intensity: 1.3
   m_Range: 5
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -14955,7 +14955,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.764151, g: 0.764151, b: 0.764151, a: 1}
+      maxColor: {r: 1, g: 0.33333334, b: 0, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -15019,7 +15019,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.140608
+      scalar: 0.62748504
       minScalar: 0.15
       maxCurve:
         serializedVersion: 2
@@ -15602,7 +15602,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 4.21824
+      scalar: 18.824549
       minScalar: 10
       maxCurve:
         serializedVersion: 2
